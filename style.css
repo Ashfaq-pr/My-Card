@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100px;
+}
+
+.cardContainer{
+    width: 500px;
+    background-color: rgb(47, 172, 47);
+
+    border: 4px solid green;
+    border-radius: 25px;
+    display: block;
+    margin: 300px auto;
+    overflow: hidden;
+
+}
+
+.cardHeader{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: rgb(47, 172, 47);
+}
+.cardBody{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: green;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardAddress{
+    font-size: 1rem;
+    color: white;
+
+}
+.cardImage{
+    padding-right: 10px;
+    float: right;
+}
+.cardFooter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: rgb(47, 172, 47);
+}
